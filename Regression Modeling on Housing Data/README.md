@@ -4,23 +4,7 @@ Predict median house value using classic ML regression models. Compares
 Linear/Ridge/Lasso, SVR, RandomForest, GradientBoosting, and MLPRegressor.
 
 
-
-## Quickstart
-
-```bash
-# (Recommended) create & activate a virtual environment
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-source .venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run all regression experiments and generate outputs in reports/
-python -m src.run_regression --all
-
-
-📁 Project Structure
+## Project Structure
     ml-regression-housing/
     ├─ README.md
     ├─ REPORT.md                 # Automatically generated model report
@@ -44,3 +28,18 @@ python -m src.run_regression --all
     │    └─ regression_results.json      # model performance metrics
     └─ figures/
         └─ feature_importance_*.png     # optional coefficient / importance plots
+
+
+## Quickstart
+
+```bash
+# (Recommended) create & activate a virtual environment
+python -m venv .venv
+# Windows: .venv\Scripts\activate
+source .venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run all regression experiments and generate outputs in reports/
+python -m src.run_regression --all
